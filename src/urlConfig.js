@@ -1,4 +1,4 @@
-export const api = 'http://localhost:2000/api';
+export const api = 'https://shodesshimart.herokuapp.com/api';
 export const generatePublicUrl = (fileName) => {
-    return `http://localhost:2000/public/${fileName}`;
+    return `https://shodesshimart.herokuapp.com/public/${fileName}`;
 }
