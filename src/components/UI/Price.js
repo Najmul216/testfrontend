@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon } from '@iconify/react';
+// import { Icon } from '@iconify/react';
 // import { BiRupee } from "react-icons/bi";
 
 /**
@@ -16,7 +16,7 @@ const Price = (props) => {
         margin: "5px 0",
       }}
     >
-      <Icon icon="mdi:currency-bdt" />
+      {/* <Icon icon="mdi:currency-bdt" /> */}
       {props.value}
     </div>
   );
