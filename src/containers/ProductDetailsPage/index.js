@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getProductDetailsById } from '../../actions';
 import Layout from '../../components/Layout';
 // import { BiRupee } from "react-icons/bi";
-import { Icon } from '@iconify/react';
+// import { Icon } from '@iconify/react';
 import { AiFillThunderbolt } from "react-icons/ai";
 import { MaterialButton } from '../../components/MaterialUI';
 import "./style.css";
@@ -114,12 +114,13 @@ const ProductDetailsPage = (props) => {
                             </span>
                         </div>
                         <div className="extraOffer">
-                            Extra <Icon icon="mdi:currency-bdt" />
+                            Extra 
+                            {/* <Icon icon="mdi:currency-bdt" /> */}
                             4500 off{" "}
                         </div>
                         <div className="flexRow priceContainer">
                             <span className="price">
-                                <Icon icon="mdi:currency-bdt" />
+                                {/* <Icon icon="mdi:currency-bdt" /> */}
                                 {product.productDetails.price}
                             </span>
                             <span className="discount" style={{ margin: "0 10px" }}>

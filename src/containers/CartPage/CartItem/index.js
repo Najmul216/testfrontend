@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { generatePublicUrl } from "../../../urlConfig";
-import { Icon } from '@iconify/react';
+// import { Icon } from '@iconify/react';
 import "./style.css";
 
 /**
@@ -33,7 +33,9 @@ const CartItem = (props) => {
         <div className="cartItemDetails">
           <div>
             <p>{name}</p>
-            <p><Icon icon="mdi:currency-bdt" /> {price}</p>
+            <p>
+            {/* <Icon icon="mdi:currency-bdt" /> */}
+             {price}</p>
           </div>
           <div>Delivery in 3 - 5 days</div>
         </div>

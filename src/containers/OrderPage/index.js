@@ -5,7 +5,7 @@ import { getOrders } from "../../actions";
 import Layout from "../../components/Layout";
 import Card from "../../components/UI/Card";
 // import { BiRupee } from "react-icons/bi";
-import { Icon } from '@iconify/react';
+// import { Icon } from '@iconify/react';
 import { IoIosArrowForward } from "react-icons/io";
 
 import "./style.css";
@@ -55,7 +55,7 @@ const OrderPage = (props) => {
                   <div className="orderName">{item.productId.name}</div>
                   <div className="orderPrice">
                     {/* <BiRupee /> */}
-                    <Icon icon="mdi:currency-bdt" />
+                    {/* <Icon icon="mdi:currency-bdt" /> */}
                     {item.payablePrice}
                   </div>
                   <div>{order.paymentStatus}</div>
